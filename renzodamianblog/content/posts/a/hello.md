@@ -2,6 +2,7 @@
 title: "Hello"
 date: 2021-05-12T20:20:27-05:00
 author: "Renzo"
+draft: true
 
 description: "\"Hello, friend?\" That's lame. Maybe I should give you a name?"
 ---

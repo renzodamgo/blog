@@ -1,5 +1,5 @@
 baseurl = "https://renzodamgo.github.io/"
-languageCode = "en-us"
+languageCode = "es-pe"
 theme = "hello-friend"
 paginate = 5
 
@@ -27,7 +27,7 @@ paginate = 5
 
 [languages]
   [languages.en]
-    title = "renzodamian"
+    title = "renzo@damian"
     subtitle = "A simple theme for Hugo"
     keywords = ""
     copyright = ""
@@ -44,7 +44,7 @@ paginate = 5
     # lastModDisplay = ""
 
     [languages.en.params.logo]
-      logoText = "renzodamgo"
+      logoText = "renzo@damian"
       logoHomeLink = "/"
     # or
     #
@@ -60,3 +60,38 @@ paginate = 5
         identifier = "showcase"
         name = "Showcase"
         url = "/showcase"
+    [languages.es]
+    title = "renzo@damian"
+    subtitle = "Articulos y projectos"
+    keywords = ""
+    copyright = ""
+    menuMore = "Mostrar más"
+    writtenBy = "Escrito por"
+    readMore = "Leer más"
+    readOtherPosts = "Leer post antiguos"
+    newerPosts = "Leer post nuevos"
+    olderPosts = "Leer post antiguos"
+    minuteReadingTime = "tiempo de lectura"
+    dateFormatSingle = "21-11-1998"
+    dateFormatList = "21-11-1998"
+    # leave empty to disable, enter display text to enable
+    # lastModDisplay = ""
+
+    [languages.es.params.logo]
+      logoText = "renzo@damian"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+    [languages.es.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.es.menu.main]]
+        identifier = "showcase"
+        name = "Showcase"
+        url = "/showcase"
+
