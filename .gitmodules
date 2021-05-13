@@ -1,0 +1,4 @@
+[submodule "renzodamianblog/public"]
+	path = renzodamianblog/public
+	url = https://github.com/renzodamgo/renzodamgo.github.io.git
+	branch = main
